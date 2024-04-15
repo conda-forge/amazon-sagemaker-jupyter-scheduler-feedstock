@@ -1,5 +1,5 @@
 {% set name = "amazon-sagemaker-jupyter-scheduler" %}
-{% set version = "3.0.9" %}
+{% set version = "3.0.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/amazon_sagemaker_jupyter_scheduler-{{ version }}.tar.gz
-  sha256: 9a5578c288f99082ad9363c7c4d392a503baaf6627991d17fddc019de86d09f6
+  sha256: 5d61fb9d5edacac23c0bb8b8932cdfcb511f157c3609127df6fa5a8cee7a9dbc
 
 build:
   noarch: python
@@ -24,14 +24,13 @@ requirements:
   run:
     - python >=3.7
     - aiobotocore >=2.7,<3
-    - jupyter-scheduler ==2.5
+    - jupyter-scheduler ==2.5.*
     - jupyter_server
     - jupyterlab ==4.*
     - aws-embedded-metrics
     - async-timeout
     - async-lru
-    - pydantic <2.6.4
-    - pydantic-core <=2.16.4
+    - pydantic
 
 test:
   imports:
