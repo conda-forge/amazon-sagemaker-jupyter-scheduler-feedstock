@@ -24,13 +24,16 @@ requirements:
   run:
     - python >=3.7
     - aiobotocore >=2.7,<3
-    - jupyter-scheduler ==2.5.*
+    - jupyter-scheduler ==2.7.*
     - jupyter_server
     - jupyterlab ==4.*
     - aws-embedded-metrics
     - async-timeout
     - async-lru
     - pydantic
+    - pytz
+    - botocore
+    - tornado
 
 test:
   imports:
