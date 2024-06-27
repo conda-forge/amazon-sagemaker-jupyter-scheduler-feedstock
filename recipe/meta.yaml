@@ -1,5 +1,5 @@
 {% set name = "amazon-sagemaker-jupyter-scheduler" %}
-{% set version = "3.1.1" %}
+{% set version = "3.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/amazon_sagemaker_jupyter_scheduler-{{ version }}.tar.gz
-  sha256: c178c61e064893b68ad9be33f3434c72c653cef535021998bd99176321da6d81
+  sha256: 71230ac7e00fbccd62fa7063c331605412001df92757aa72740b7e6c49f017fc
 
 build:
   noarch: python
@@ -55,3 +55,5 @@ extra:
   recipe-maintainers:
     - oztoprakmustafa
     - zuoyuanh
+    - mufaddal-rohawala
+    - benieric
