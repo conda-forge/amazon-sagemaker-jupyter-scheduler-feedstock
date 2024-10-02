@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -24,7 +24,7 @@ requirements:
   run:
     - python >=3.7
     - aiobotocore >=2.9,<3
-    - jupyter-scheduler ==2.7.*
+    - jupyter-scheduler >=2.7.*,<3
     - jupyter_server
     - jupyterlab ==4.*
     - aws-embedded-metrics
