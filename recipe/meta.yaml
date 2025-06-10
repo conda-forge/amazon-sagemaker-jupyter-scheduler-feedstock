@@ -27,6 +27,7 @@ requirements:
     - jupyter-scheduler >=2.7.*,<3
     - jupyter_server
     - jupyterlab ==4.*
+    - sagemaker-jupyterlab-extension-common >=0.2.1,<1
     - aws-embedded-metrics
     - async-timeout
     - async-lru
