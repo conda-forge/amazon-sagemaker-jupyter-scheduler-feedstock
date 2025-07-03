@@ -54,6 +54,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - pilgd-aws
     - meghanajs99
     - oztoprakmustafa
     - zuoyuanh
