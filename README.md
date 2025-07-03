@@ -144,7 +144,9 @@ Feedstock Maintainers
 =====================
 
 * [@benieric](https://github.com/benieric/)
+* [@meghanajs99](https://github.com/meghanajs99/)
 * [@mufaddal-rohawala](https://github.com/mufaddal-rohawala/)
 * [@oztoprakmustafa](https://github.com/oztoprakmustafa/)
+* [@pilgd-aws](https://github.com/pilgd-aws/)
 * [@zuoyuanh](https://github.com/zuoyuanh/)
 
